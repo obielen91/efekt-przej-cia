@@ -1,0 +1,43 @@
+.box1,
+.box2,
+.box3 {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-left: 200px
+}
+
+.box1 {
+    background-color: red;
+    transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+}
+
+.box2 {
+    background-color: blue;
+    transition-property: height;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+}
+
+.box3 {
+    background-color: green;
+    transition-property: height, width;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+}
+
+.box1:hover {
+    width: 300px;
+}
+
+.box2:hover {
+    height: 300px;
+}
+
+.box3:hover:hover {
+    width: 300px;
+    height: 300px;
+}
